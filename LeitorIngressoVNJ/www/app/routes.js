@@ -7,7 +7,7 @@ angular.module("ngapp").config(["$stateProvider", "$urlRouterProvider", function
     $stateProvider.state("main", {
         url: "/main",
         templateUrl: "app/components/main/main.html",
-        title: "Leitor de Ingresso - VNJ",
+        title: "Leitor de Ingressos",
         controller: "MainController",
         controllerAs: "main"
     });

@@ -8,6 +8,8 @@
     document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
 
     function onDeviceReady() {
+        console.log(navigator.camera);
+        console.log("lugi");
         // Manipular eventos de pausa e retomada do Cordova
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );

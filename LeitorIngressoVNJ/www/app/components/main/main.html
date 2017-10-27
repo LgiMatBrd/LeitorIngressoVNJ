@@ -1,6 +1,6 @@
 <md-toolbar flex>
   <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
-    <md-button class="md-icon-button" aria-label="Menu" ng-click="main.toggle()">
+    <md-button class="md-icon-button" aria-label="MENU" ng-click="main.toggle()">
       <md-icon>menu</md-icon>
     </md-button>
     <p>{{ main.title }}</p>
@@ -14,12 +14,8 @@
   </md-toolbar>
   <md-list ng-cloak>
     <md-list-item ng-href="#">
-      <md-icon style="padding-right: 16px; color: #000000">school</md-icon>
-      <p>Item 1</p>
-    </md-list-item>
-    <md-list-item ng-href="#">
-      <md-icon style="padding-right: 16px; color: #000000">settings_ethernet</md-icon>
-      <p>Item 2</p>
+      <md-icon style="padding-right: 16px; color: #000000">home</md-icon>
+      <p>Home</p>
     </md-list-item>
   </md-list>
 </md-sidenav>
@@ -30,7 +26,7 @@
 
 
         <md-content flex layout-padding>
-            <h4>Descrição:</h4>
+            <h1>LER INGRESSO</h1>
             <p>Vou no Jogo - www.vounojogo.com.br</p>
         </md-content>
     </div>
@@ -45,7 +41,7 @@
       </md-button>
     </div>
     -->
-      <md-button class="md-raised md-primary">Escanear</md-button>
+      <md-button class="md-raised md-primary" ng-click="main.Teste()" >Escanear</md-button>
   </md-whiteframe>
 
 </div>

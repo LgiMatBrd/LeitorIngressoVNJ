@@ -99,9 +99,10 @@
     <splash src="res/screens/windows/SplashScreenPhone.scale-240.png" width="1152" height="1920" />
   </platform>
   <preference name="target-device" value="handset" />
+  <plugin name="phonegap-plugin-barcodescanner" spec="~7.0.0" />
   <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
   <engine name="android" spec="5.2.1" />
   <engine name="ios" spec="4.2.0" />
   <engine name="windows" spec="4.4.2" />
-  <plugin name="phonegap-plugin-barcodescanner" spec="~7.0.0" />
+  <plugin name="cordova-plugin-camera" spec="~2.4.1" />
 </widget>
