@@ -6,6 +6,11 @@
     "config_munge": {
         "files": {}
     },
-    "installed_plugins": {},
+    "installed_plugins": {
+        "phonegap-plugin-barcodescanner": {
+            "CAMERA_USAGE_DESCRIPTION": " ",
+            "PACKAGE_NAME": "io.cordova.myappde4242"
+        }
+    },
     "dependent_plugins": {}
 }

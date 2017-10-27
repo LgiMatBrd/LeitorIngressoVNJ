@@ -103,4 +103,5 @@
   <engine name="android" spec="5.2.1" />
   <engine name="ios" spec="4.2.0" />
   <engine name="windows" spec="4.4.2" />
+  <plugin name="phonegap-plugin-barcodescanner" spec="~7.0.0" />
 </widget>
