@@ -54,14 +54,16 @@ function scan() {
                     //console.log(fName, "Leitura compelta!");
                     //alert("Código recebido!\n" + "Resultado: " + result.text + "\n" + "Formato: " + result.format + "\n");
                     //scan();
-                    $.post('https://amigo.basquetejoinville.com.br/retaguarda/rsocio/leituraIngresso/'+result.text, function(res){
+                    $.post('https://amigo.basquetejoinville.com.br/retaguarda/rsocio/leituraIngresso/' + result.text, function(res){
                         var resposta = JSON.parse(res);
                         if (resposta[0].RESPOSTA == 0) {
-                            alert(resposta[0].MENSAGEM);
-                            //setTimeout(scan, 2000); 
+                            //alert(resposta[0].MENSAGEM);
+                            document.getElementById("mensagemResposta").innerHTML = resposta[0].MENSAGEM;
+                            setTimeout(scan, 2000); 
                         } else {
-                            alert(resposta[0].MENSAGEM);
-                            //setTimeout(scan, 2000);
+                            //alert(resposta[0].MENSAGEM);
+                            document.getElementById("mensagemResposta").innerHTML = resposta[0].MENSAGEM;
+                            setTimeout(scan, 2000);
                         }
                     });
                 },
