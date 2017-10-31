@@ -1,0 +1,273 @@
+{
+  "project": {
+    "projectSettingsVersion": "3.0.0",
+    "creationData": {
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "jsapp/sample-barcode-scanner/sample.zip",
+      "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
+      "lastModifiedDate": 1509380184430,
+      "creationDate": 1509379538251
+    },
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "libraries": [],
+    "serviceMethods": [],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "cordova-plugin-device",
+        "version": "1.1.2",
+        "originType": "cordova.io",
+        "selectedState": "Included",
+        "name": "Device",
+        "origin": "cordova-plugin-device",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "2373ccea",
+        "gitref": "",
+        "description": "Cordova Device Plugin"
+      },
+      {
+        "id": "cordova-plugin-splashscreen",
+        "version": "3.2.2",
+        "originType": "cordova.io",
+        "selectedState": "Included",
+        "name": "Splashscreen",
+        "origin": "cordova-plugin-splashscreen",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "47137083",
+        "gitref": "",
+        "description": "Cordova Splashscreen Plugin"
+      },
+      {
+        "id": "cordova-plugin-statusbar",
+        "version": "2.1.3",
+        "originType": "cordova.io",
+        "selectedState": "Included",
+        "name": "StatusBar",
+        "origin": "cordova-plugin-statusbar",
+        "data": {},
+        "paramvals": {},
+        "permissions": {},
+        "dependsOn": [],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "c0146fbc",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "Cordova StatusBar Plugin"
+      },
+      {
+        "id": "phonegap-plugin-barcodescanner",
+        "version": "6.0.8",
+        "originType": "cordova.io",
+        "selectedState": "Included",
+        "name": "BarcodeScanner",
+        "origin": "phonegap-plugin-barcodescanner",
+        "data": {},
+        "paramvals": {
+          "CAMERA_USAGE_DESCRIPTION": " "
+        },
+        "permissions": {
+          "android:name": [
+            "android.permission.CAMERA",
+            "android.permission.FLASHLIGHT"
+          ]
+        },
+        "dependsOn": [
+          "cordova-plugin-compat"
+        ],
+        "dependedBy": [],
+        "topLevel": true,
+        "checksum": "7888689b",
+        "gitref": "",
+        "cordovaVersion": ">=3.0.0",
+        "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application."
+      },
+      {
+        "id": "cordova-plugin-compat",
+        "name": "Compat",
+        "version": "1.0.0",
+        "originType": "cordova.io",
+        "origin": "cordova-plugin-compat",
+        "gitref": "",
+        "paramvals": {},
+        "sourceLocation": "plugins/cordova-plugin-compat",
+        "selectedState": "Included",
+        "checksum": "61c62eb",
+        "dependsOn": [],
+        "topLevel": false,
+        "permissions": {},
+        "description": "Cordova Compatibility Plugin",
+        "data": {},
+        "dependedBy": [
+          "phonegap-plugin-barcodescanner"
+        ],
+        "custom": "true"
+      }
+    ],
+    "buildConfigurations": {
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "19",
+          "android-targetSdkVersion": "21",
+          "android-installLocation": "auto",
+          "Fullscreen": false,
+          "Orientation": "portrait",
+          "android-signed": true
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "23",
+        "appName_": "BarcodeScanner",
+        "appID_": "xdk.intel.sample",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK sample",
+        "appAuthor_": "Intel XDK",
+        "signed_": true
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "exit-on-suspend": false,
+          "deployment-target": "8.0",
+          "ios-configuration": "adhoc",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "23",
+        "appName_": "BarcodeScanner",
+        "appID_": "xdk.intel.sample",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "appVersion_": "0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK sample",
+        "appAuthor_": "Intel XDK"
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": "",
+          "Fullscreen": false,
+          "Orientation": "portrait"
+        },
+        "isActive_": true,
+        "certificateId_": "",
+        "cordovaCLIVersion_": "6.2.0",
+        "crosswalkVersion_": "23",
+        "appName_": "BarcodeScanner",
+        "appID_": "xdk.intel.sample",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.0.1",
+        "appVersionCode_": "1",
+        "appDescription_": "Intel XDK sample",
+        "appAuthor_": "Intel XDK"
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "Intel XDK Sample",
+        "appID_": "xdk.intel.sample",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Intel XDK sample",
+        "appAuthor_": "Intel XDK"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "certificateId_": "",
+        "appName_": "BarcodeScanner",
+        "appID_": "xdk.intel.sample",
+        "appAccess_": {
+          "mode": "whitelist",
+          "network": [],
+          "intents": [],
+          "navigation": []
+        },
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appVersion_": "0.0.1",
+        "appDescription_": "Intel XDK sample",
+        "appAuthor_": "Intel XDK"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": [
+      "XDK-disallow-legacy-whitelist"
+    ],
+    "testDirectory": "test"
+  }
+}
