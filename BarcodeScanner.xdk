@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-barcode-scanner/sample.zip",
       "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
-      "lastModifiedDate": 1509380184430,
+      "lastModifiedDate": 1509459847299,
       "creationDate": 1509379538251
     },
     "sourceDirectory": "www",
@@ -120,7 +120,7 @@
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
-        "runtime_": "Cordova 3.x",
+        "runtime_": "Crosswalk with Cordova 3.x",
         "name_": "Android",
         "preferences_": {
           "android-minSdkVersion": "19",
@@ -134,8 +134,8 @@
         "certificateId_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
-        "appName_": "BarcodeScanner",
-        "appID_": "xdk.intel.sample",
+        "appName_": "LeitorIngressoVNJ",
+        "appID_": "vnj.leitoringresso.app",
         "appAccess_": {
           "mode": "whitelist",
           "network": [],
@@ -148,8 +148,8 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "appDescription_": "Intel XDK sample",
-        "appAuthor_": "Intel XDK",
+        "appDescription_": "Aplicativo para leitura e validação de ingressos da empresa vounojogo.com.br",
+        "appAuthor_": "Vou no Jogo",
         "signed_": true
       },
       "iOS": {
@@ -167,8 +167,8 @@
         "certificateId_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
-        "appName_": "BarcodeScanner",
-        "appID_": "xdk.intel.sample",
+        "appName_": "LeitorIngressoVNJ",
+        "appID_": "vnj.leitoringresso.app",
         "appAccess_": {
           "mode": "whitelist",
           "network": [],
@@ -182,8 +182,8 @@
         "iosProvs_": [],
         "appVersion_": "0.0.1",
         "appVersionCode_": "1",
-        "appDescription_": "Intel XDK sample",
-        "appAuthor_": "Intel XDK"
+        "appDescription_": "Aplicativo para leitura e validação de ingressos da empresa vounojogo.com.br",
+        "appAuthor_": "Vou no Jogo"
       },
       "Windows8": {
         "platform_": "windows8",
@@ -195,12 +195,12 @@
           "Fullscreen": false,
           "Orientation": "portrait"
         },
-        "isActive_": true,
+        "isActive_": false,
         "certificateId_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
-        "appName_": "BarcodeScanner",
-        "appID_": "xdk.intel.sample",
+        "appName_": "LeitorIngressoVNJ",
+        "appID_": "vnj.leitoringresso.app",
         "appAccess_": {
           "mode": "whitelist",
           "network": [],
@@ -213,8 +213,8 @@
         "excludedLibraries_": "",
         "appVersion_": "0.0.0.1",
         "appVersionCode_": "1",
-        "appDescription_": "Intel XDK sample",
-        "appAuthor_": "Intel XDK"
+        "appDescription_": "Aplicativo para leitura e validação de ingressos da empresa vounojogo.com.br",
+        "appAuthor_": "Vou no Jogo"
       },
       "WebApp": {
         "platform_": "webapp",
