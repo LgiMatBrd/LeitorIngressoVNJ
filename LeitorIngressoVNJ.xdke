@@ -19,7 +19,7 @@
       "tinyhippos-saved-sims": {
         "id": "tinyhippos-saved-sims",
         "key": "saved-sims",
-        "value": "[{\"service\":\"BarcodeScanner\",\"action\":\"scan\",\"args\":[],\"value\":132456789,\"success\":true}]",
+        "value": "[{\"service\":\"BarcodeScanner\",\"action\":\"scan\",\"args\":[],\"value\":122112,\"success\":true}]",
         "prefix": "tinyhippos-"
       }
     }
