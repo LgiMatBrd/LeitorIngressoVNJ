@@ -8,7 +8,7 @@
 <preference name="android-build-tool" value="gradle" />
 <platform name="android" >
 </platform>
-<preference name="phonegap-version" value="cli-6.5.0" />
+<preference name="phonegap-version" value="cli-6.2.0" />
 <preference name="xwalkMultipleApk" value="false" />
 <plugin name="cordova-plugin-crosswalk-webview"/>
 <plugin name="cordova-plugin-device" spec="1.1.2"/>
@@ -49,9 +49,10 @@
     <preference name="android-signed" value="true"/>
     <preference name="AndroidLaunchMode" value="singleTop"/>
 </platform>
-<icon platform="android" src="package-assets/res/mipmap-xhdpi/vnj_launcher.png" density="xhdpi" width="96" height="96"/>
-<icon platform="android" src="package-assets/res/mipmap-hdpi/vnj_launcher.png" density="hdpi" width="72" height="72"/>
-<icon platform="android" src="package-assets/res/mipmap-mdpi/vnj_launcher.png" density="mdpi" width="48" height="48"/>
+<icon platform="android" src="package-assets/36x36.png" density="ldpi" width="36" height="36"/>
+<icon platform="android" src="package-assets/48x48.png" density="mdpi" width="48" height="48"/>
+<icon platform="android" src="package-assets/72x72.png" density="hdpi" width="72" height="72"/>
+<icon platform="android" src="package-assets/96x96.png" density="xhdpi" width="96" height="96"/>
 <config-file platform="android" parent="/manifest/application" mode="merge"> 
     <activity android:launchMode="singleTop" />
 </config-file>
