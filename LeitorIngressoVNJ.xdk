@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-barcode-scanner/sample.zip",
       "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
-      "lastModifiedDate": 1510676902300,
+      "lastModifiedDate": 1510685378035,
       "creationDate": 1509379538251
     },
     "sourceDirectory": "www",
@@ -145,29 +145,35 @@
         },
         "icons_": [
           {
+            "density": "mdpi",
+            "relPath": "package-assets/res/drawable-mdpi/ic_launcher.png",
+            "width": 48,
+            "height": 48
+          },
+          {
             "density": "xhdpi",
-            "relPath": "package-assets/res/mipmap-xhdpi/vnj_launcher.png",
+            "relPath": "package-assets/res/drawable-xhdpi/ic_launcher.png",
             "width": 96,
             "height": 96
           },
           {
             "density": "hdpi",
-            "relPath": "package-assets/res/mipmap-hdpi/vnj_launcher.png",
+            "relPath": "package-assets/res/drawable-hdpi/ic_launcher.png",
             "width": 72,
             "height": 72
           },
           {
-            "density": "mdpi",
-            "relPath": "package-assets/res/mipmap-mdpi/vnj_launcher.png",
-            "width": 48,
-            "height": 48
+            "density": "ldpi",
+            "relPath": "package-assets/res/36x36.png",
+            "width": 36,
+            "height": 36
           }
         ],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
+        "appVersion_": "1.1",
+        "appVersionCode_": "2",
         "appDescription_": "Aplicativo para leitura e validação de ingressos da empresa vounojogo.com.br",
         "appAuthor_": "Vou no Jogo",
         "signed_": true
