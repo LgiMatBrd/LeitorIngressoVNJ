@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-barcode-scanner/sample.zip",
       "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
-      "lastModifiedDate": 1509459847299,
+      "lastModifiedDate": 1510676902300,
       "creationDate": 1509379538251
     },
     "sourceDirectory": "www",
@@ -128,7 +128,8 @@
           "android-installLocation": "auto",
           "Fullscreen": false,
           "Orientation": "portrait",
-          "android-signed": true
+          "android-signed": true,
+          "AndroidLaunchMode": "singleTop"
         },
         "isActive_": true,
         "certificateId_": "",
@@ -142,7 +143,26 @@
           "intents": [],
           "navigation": []
         },
-        "icons_": [],
+        "icons_": [
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/res/mipmap-xhdpi/vnj_launcher.png",
+            "width": 96,
+            "height": 96
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/res/mipmap-hdpi/vnj_launcher.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/res/mipmap-mdpi/vnj_launcher.png",
+            "width": 48,
+            "height": 48
+          }
+        ],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
@@ -163,7 +183,7 @@
           "Fullscreen": false,
           "Orientation": "portrait"
         },
-        "isActive_": true,
+        "isActive_": false,
         "certificateId_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
