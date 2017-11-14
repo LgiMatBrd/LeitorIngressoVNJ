@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-barcode-scanner/sample.zip",
       "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
-      "lastModifiedDate": 1510685378035,
+      "lastModifiedDate": 1510685544497,
       "creationDate": 1509379538251
     },
     "sourceDirectory": "www",
@@ -145,28 +145,28 @@
         },
         "icons_": [
           {
+            "density": "ldpi",
+            "relPath": "package-assets/36x36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
             "density": "mdpi",
-            "relPath": "package-assets/res/drawable-mdpi/ic_launcher.png",
+            "relPath": "package-assets/48x48.png",
             "width": 48,
             "height": 48
           },
           {
-            "density": "xhdpi",
-            "relPath": "package-assets/res/drawable-xhdpi/ic_launcher.png",
-            "width": 96,
-            "height": 96
-          },
-          {
             "density": "hdpi",
-            "relPath": "package-assets/res/drawable-hdpi/ic_launcher.png",
+            "relPath": "package-assets/72x72.png",
             "width": 72,
             "height": 72
           },
           {
-            "density": "ldpi",
-            "relPath": "package-assets/res/36x36.png",
-            "width": 36,
-            "height": 36
+            "density": "xhdpi",
+            "relPath": "package-assets/96x96.png",
+            "width": 96,
+            "height": 96
           }
         ],
         "splashes_": [],
