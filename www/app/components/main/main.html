@@ -17,11 +17,15 @@
       <md-icon style="padding-right: 16px; color: #000000">home</md-icon>
       <p>Home</p>
     </md-list-item>
+    <md-list-item ng-href="#">
+      <md-icon style="padding-right: 16px; color: #000000">help</md-icon>
+      <p>Vounojogo.com.br</p>
+    </md-list-item>
   </md-list>
 </md-sidenav>
 
-<div layout="column" layout-align="center center" flex>
-  <md-whiteframe class="md-whiteframe-3dp" layout="column" style="margin: 1em; width: 22em; height: 18em;" flex>
+<!--<div layout="column" layout-align="center center" flex>-->
+  <md-whiteframe class="md-whiteframe-3dp layout-column flex" layout="column" style="margin: 0 !important;width: 100% !important;height: 100% !important;padding: 0 !important;" flex="">
     <div layout="column" flex style="margin-left: 1em;">
       <h4>Produto:</h4>
       <p style="margin-top: -1em;">Leitor de Ingressos</p>
@@ -29,12 +33,12 @@
       <p style="margin-top: -1em;">Vou no Jogo - www.vounojogo.com.br</p>
       <!--<h4>{{ mensagemRetornoTitulo }}</h4>
       <p style="margin-top: -1em;">{{ mensagemRetorno }}</p>-->
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+          <md-button ng-click="scan()" class="md-fab md-primary">
+          <md-icon style="padding-left: 0;font-size: 31.5px;padding-bottom: 5.5px;text-align: center !important;padding-right: 5.5px;">gps_fixed</md-icon>
+          </md-button>
+        </section>
     </div>
-    <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-      <md-button ng-click="scan()" class="md-fab md-primary">
-      <md-icon style="padding-left: 0;font-size: 31.5px;padding-bottom: 5.5px;text-align: center !important;padding-right: 5.5px;">gps_fixed</md-icon>
-      </md-button>
-    </section>
   </md-whiteframe>
 
-</div>
+<!--</div>-->

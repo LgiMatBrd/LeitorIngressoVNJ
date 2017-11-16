@@ -25,4 +25,5 @@ angular.module("ngapp", [ "ui.router", "ngMaterial", "ngCordova", "ngStorage" ])
   $mdThemingProvider.theme('default')
     .primaryPalette('orange')
     .accentPalette('blue');
+    
 });
