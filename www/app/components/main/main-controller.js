@@ -12,7 +12,7 @@ angular.module("ngapp").controller("MainController", function(shared, $state, $s
         cordova.plugins.barcodeScanner.scan( 
             function (result) {
                 //alert("Código recebido!\n" + "Resultado: " + result.text + "\n" + "Formato: " + result.format + "\n");
-                $.post('https://amigo.basquetejoinville.com.br/retaguarda/rsocio/leituraIngresso/123', function(res){
+                $.post('https://amigo.basquetejoinville.com.br/retaguarda/rsocio/leituraIngresso/' + result.text, function(res){
                     var resposta = JSON.parse(res);
                     console.dir(resposta);
                     if (resposta[0].RESPOSTA == 0) {
