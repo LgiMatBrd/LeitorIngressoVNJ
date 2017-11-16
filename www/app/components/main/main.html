@@ -1,0 +1,40 @@
+<md-toolbar flex>
+  <div class="md-toolbar-tools" layout="row" layout-align="space-between center">
+    <md-button class="md-icon-button" aria-label="Menu" ng-click="main.toggle()">
+      <md-icon>menu</md-icon>
+    </md-button>
+    <p>Vou no Jogo</p>
+    <div style="width: 40px; height: 40px;"></div>
+  </div>
+</md-toolbar>
+
+<md-sidenav class="md-sidenav-left" md-component-id="left">
+  <md-toolbar>
+    <h1 class="md-toolbar-tools">Navegação</h1>
+  </md-toolbar>
+  <md-list ng-cloak>
+    <md-list-item ng-href="#">
+      <md-icon style="padding-right: 16px; color: #000000">home</md-icon>
+      <p>Home</p>
+    </md-list-item>
+  </md-list>
+</md-sidenav>
+
+<div layout="column" layout-align="center center" flex>
+  <md-whiteframe class="md-whiteframe-3dp" layout="column" style="margin: 1em; width: 22em; height: 18em;" flex>
+    <div layout="column" flex style="margin-left: 1em;">
+      <h4>Produto:</h4>
+      <p style="margin-top: -1em;">Leitor de Ingressos</p>
+      <h4>Criado por:</h4>
+      <p style="margin-top: -1em;">Vou no Jogo - www.vounojogo.com.br</p>
+      <!--<h4>{{ mensagemRetornoTitulo }}</h4>
+      <p style="margin-top: -1em;">{{ mensagemRetorno }}</p>-->
+    </div>
+    <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+      <md-button ng-click="scan()" class="md-fab md-primary">
+      <md-icon style="padding-left: 0;font-size: 31.5px;padding-bottom: 5.5px;text-align: center !important;padding-right: 5.5px;">gps_fixed</md-icon>
+      </md-button>
+    </section>
+  </md-whiteframe>
+
+</div>

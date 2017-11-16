@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/sample-barcode-scanner/sample.zip",
       "projectGuid": "65c7886a-6559-4112-b4fe-1663ac7ff5a8",
-      "lastModifiedDate": 1509459847299,
+      "lastModifiedDate": 1510685544497,
       "creationDate": 1509379538251
     },
     "sourceDirectory": "www",
@@ -128,7 +128,8 @@
           "android-installLocation": "auto",
           "Fullscreen": false,
           "Orientation": "portrait",
-          "android-signed": true
+          "android-signed": true,
+          "AndroidLaunchMode": "singleTop"
         },
         "isActive_": true,
         "certificateId_": "",
@@ -142,12 +143,37 @@
           "intents": [],
           "navigation": []
         },
-        "icons_": [],
+        "icons_": [
+          {
+            "density": "ldpi",
+            "relPath": "package-assets/36x36.png",
+            "width": 36,
+            "height": 36
+          },
+          {
+            "density": "mdpi",
+            "relPath": "package-assets/48x48.png",
+            "width": 48,
+            "height": 48
+          },
+          {
+            "density": "hdpi",
+            "relPath": "package-assets/72x72.png",
+            "width": 72,
+            "height": 72
+          },
+          {
+            "density": "xhdpi",
+            "relPath": "package-assets/96x96.png",
+            "width": 96,
+            "height": 96
+          }
+        ],
         "splashes_": [],
         "addlPermissions_": "",
         "excludedLibraries_": "",
-        "appVersion_": "0.0.1",
-        "appVersionCode_": "1",
+        "appVersion_": "1.1",
+        "appVersionCode_": "2",
         "appDescription_": "Aplicativo para leitura e validação de ingressos da empresa vounojogo.com.br",
         "appAuthor_": "Vou no Jogo",
         "signed_": true
@@ -163,7 +189,7 @@
           "Fullscreen": false,
           "Orientation": "portrait"
         },
-        "isActive_": true,
+        "isActive_": false,
         "certificateId_": "",
         "cordovaCLIVersion_": "6.2.0",
         "crosswalkVersion_": "23",
